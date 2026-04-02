@@ -35,7 +35,7 @@ public class GoogleSearchTest {
         WebElement searchBox = driver.findElement(By.name("q"));
 
         // 3. Type "Selenium" and press Enter
-        searchBox.sendKeys("Selenium automation");
+        searchBox.sendKeys("Selenium automation project");
         searchBox.submit();
 
         // 4. Assert that the title contains the search term
